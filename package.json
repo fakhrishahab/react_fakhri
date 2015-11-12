@@ -1,0 +1,24 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel --presets react src --watch --out-dir build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015": "^6.1.4",
+    "babel-preset-react": "^6.1.4",
+    "babelify": "^7.2.0",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2"
+  },
+  "devDependencies": {
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0"
+  }
+}
